@@ -1,0 +1,111 @@
+.body{
+    background-image: url(../Images/HomePageImage.PNG);
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+    display: flex;
+    justify-content: center; 
+    margin-top: 100px;
+    font-family: arial;
+}
+.Left-Part{
+    height: 290px;
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+    border: 2px solid black;
+    background-color: maroon;
+    align-items: center;
+    text-align: center;
+    display: block;
+    padding-top: 120px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.H1-1{
+    color:beige;
+    font-size: 25px;
+    font-weight: 600;
+}
+.H1-2{
+    margin-top: 25px;
+    color: rgb(203, 163, 163);
+}
+.button-1{
+    border-radius: 18px;
+    font-weight: bold;
+    font-size: 12px;
+    color: maroon;
+    background-color:beige;
+    border: 2px solid rgb(58, 50, 50);
+    padding-left: 35px;
+    padding-right: 35px;
+    height: 40px;
+    margin-top: 15px;
+    cursor: pointer;
+    box-shadow:  10px 10px 50px rgb(0, 0, 0);
+}
+.Right-Part{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 70px;
+    border: 2px solid rgb(175, 175, 98);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 10px 10px 30px rgb(0, 0, 0);
+    background-color: rgb(245, 245, 212);
+}
+.H2-1{
+    color: maroon;
+    font-size: 25px;
+    font-weight: 800;
+}
+.H2-2{
+    margin-top: 15px;
+    color:maroon;
+    font-size: 20px;
+    font-weight: 600;
+    padding-top: 45px;
+}
+
+.button-1:hover,.button-2:hover{
+    opacity: 0.8;
+}
+.button-1:active,.button-2:active{
+    opacity: 0.5;
+}
+.H2-2{
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding-top: 0px;
+}
+.type-in1{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    width: 240px;
+    height: 30px;
+    border-color:transparent;
+    border-radius: 10px;
+}
+.type-in2{
+    margin-bottom: 40px;
+    width: 240px;
+    height: 30px;
+    border-color: transparent;
+    border-radius: 10px;
+}
+.button-2{
+    color: beige;
+    background-color: maroon;
+    font-size: 12px;
+    font-weight: bold;
+    height: 40px;
+    width: 140px;
+    border-radius: 23px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
