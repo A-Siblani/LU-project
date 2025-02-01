@@ -12,26 +12,30 @@
     font-family: arial;
 }
 .Left-Part{
-    height: 290px;
+    height: 310px;
     border-bottom-left-radius: 15px;
     border-top-left-radius: 15px;
     border: 2px solid black;
+    border-right-color: transparent;
     background-color: maroon;
     align-items: center;
     text-align: center;
     display: block;
-    padding-top: 120px;
+    padding-top: 115px;
     padding-left: 20px;
     padding-right: 20px;
+    background-image: url(../Images/backgroundImage3.PNG);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .H1-1{
     color:beige;
-    font-size: 25px;
-    font-weight: 600;
+    font-size: 20px;
+    margin-top: 185px;
 }
 .H1-2{
-    margin-top: 25px;
-    color: rgb(203, 163, 163);
+    margin-top: 5px;
+    color: white;
 }
 .button-1{
     border-radius: 18px;
@@ -43,7 +47,7 @@
     padding-left: 35px;
     padding-right: 35px;
     height: 40px;
-    margin-top: 15px;
+    margin-top: 10px;
     cursor: pointer;
     box-shadow:  10px 10px 50px rgb(0, 0, 0);
 }
@@ -51,7 +55,8 @@
     padding-left: 100px;
     padding-right: 100px;
     padding-top: 70px;
-    border: 2px solid rgb(175, 175, 98);
+    border: 2px solid black;
+    border-left: 0px solid transparent;
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     box-shadow: 10px 10px 30px rgb(0, 0, 0);
@@ -61,6 +66,7 @@
     color: maroon;
     font-size: 25px;
     font-weight: 800;
+    margin-top: 20px;
 }
 .H2-2{
     margin-top: 15px;
@@ -89,6 +95,7 @@
     height: 30px;
     border-color:transparent;
     border-radius: 10px;
+    padding-left: 10px;
 }
 .type-in2{
     margin-bottom: 40px;
@@ -96,6 +103,7 @@
     height: 30px;
     border-color: transparent;
     border-radius: 10px;
+    padding-left: 10px;
 }
 .button-2{
     color: beige;
