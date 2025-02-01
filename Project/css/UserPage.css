@@ -1,5 +1,5 @@
 body{
-    background-color: lightblue;
+    /* background-color: maroon; */
 }
 
 .title{
@@ -65,4 +65,89 @@ body{
 }
 .right-part{
     display: flex;
+}
+.line-one{
+    margin-top: 22px;
+    margin-left: 20px;
+    display: flex;
+    background-color: white;
+    overflow: auto;
+    white-space: nowrap;
+    height: 570px;
+}
+.genre{
+    margin-left: 20px;
+    color: rgb(163, 6, 6);
+    font-size: 30px;
+    margin-top: 7px;
+    font-weight: 900;
+}
+.book1-front img{
+    height: 340px;
+    width: 260px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.flip-box {
+    background-color: rgb(231, 231, 192);
+    width: 260px;
+    height: 507px;
+    border: 2px solid #a31717;
+    perspective: 1000px;
+    margin-right: 40px;
+    margin-bottom: 30px;
+    border-radius: 8px;
+}
+.flip-box-inner{
+    position: relative;
+    height: 350px;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+}
+.flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+ }
+.book1-front, .book1-back {
+    position: absolute;
+    width: 260px;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+
+}
+.book1-back {
+    background-color: maroon;
+    color: white;
+    transform: rotateY(180deg);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 340px;
+}
+.price{
+    color: rgb(45, 164, 45);
+    font-weight: 900;
+    font-size: 20px;
+    height: 20px;
+}
+.rating{
+    width: 70px;
+    height: 50px;
+}
+.front-info button{
+    width: 100%;
+    height: 27px;
+    border:1px solid black;
+    border-radius: 15px;
+    background-color: #a31717;
+    color: beige;
+    font-size: 15px;
+}
+.front-info{
+    font-size: 18px;
+    font-weight: 500;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.3;
+    width: 260px;
 }
